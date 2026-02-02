@@ -1,0 +1,175 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --accent-rgb: 102, 0, 0;
+  /* Dark red from legacy */
+  --accent-hover-rgb: 64, 0, 0;
+  --muted-rgb: 125, 125, 125;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Century Gothic", "Source Sans Pro", Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(var(--accent-rgb));
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: rgb(var(--accent-hover-rgb));
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+/* Main container with flex layout like legacy */
+#holder {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+#left {
+  flex-grow: 100;
+  min-width: 1em;
+  max-width: 4em;
+}
+
+#middle {
+  max-width: 31em;
+}
+
+#right {
+  min-width: 1em;
+  flex-grow: 100;
+}
+
+/* Utilities */
+.muted {
+  color: rgb(var(--muted-rgb));
+  opacity: 0.9;
+}
+
+.pronunciation {
+  color: rgb(var(--muted-rgb));
+  opacity: 0.9;
+}
+
+.list-reset {
+  list-style: none;
+}
+
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+/* Blog list styling - walzr.com inspired */
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.blog-list a {
+  display: inline;
+  font-weight: normal;
+}
+
+.blog-list .muted {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Prose for blog posts */
+.prose {
+  max-width: 31em;
+}
+
+.prose ul,
+.prose ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  margin-top: 2rem;
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose blockquote {
+  border-left: 2px solid rgb(var(--muted-rgb));
+  padding-left: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
