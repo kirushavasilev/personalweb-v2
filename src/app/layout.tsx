@@ -3,19 +3,19 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kirillvasilev.com"),
+  metadataBase: new URL("https://kvasilev.tech"),
   title: {
     default: "Kirill Vasilev",
     template: "%s | Kirill Vasilev",
   },
   description: "UC Berkeley ECE undergraduate. Interested in cryptography, quantum computing, space exploration, communication technology, infrastructure, robotics, and RF.",
   keywords: ["Kirill Vasilev", "UC Berkeley", "ECE", "Electrical Engineering", "Computer Engineering", "Robotics", "Quantum Computing", "Space Exploration", "Kirill Vasilev berkeley", "Berkeley",],
-  authors: [{ name: "Kirill Vasilev", url: "https://kirillvasilev.com" }],
+  authors: [{ name: "Kirill Vasilev", url: "https://kvasilev.tech" }],
   creator: "Kirill Vasilev",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kirillvasilev.com",
+    url: "https://kvasilev.tech",
     title: "Kirill Vasilev",
     description: "UC Berkeley engineering undergraduate. Interested in cryptography, quantum computing, space exploration, communication technology, infrastructure, robotics, and RF.",
     siteName: "Kirill Vasilev",

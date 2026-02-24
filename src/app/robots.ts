@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
                userAgent: "*",
                allow: "/",
           },
-          sitemap: "https://kirillvasilev.com/sitemap.xml",
+          sitemap: "https://kvasilev.tech/sitemap.xml",
      };
 }

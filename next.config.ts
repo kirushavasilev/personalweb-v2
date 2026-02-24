@@ -8,10 +8,10 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: "host",
-            value: "www.kirillvasilev.com",
+            value: "www.kvasilev.tech",
           },
         ],
-        destination: "https://kirillvasilev.com/:path*",
+        destination: "https://kvasilev.tech/:path*",
         permanent: true,
       },
     ];
