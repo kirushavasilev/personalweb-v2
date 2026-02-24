@@ -10,12 +10,12 @@ export default function Home() {
         </h1>
 
         <p>
-          Undergraduate in Electrical and Computer Engineering at UC Berkeley.
+          Undergraduate in MechE/EECS at UC Berkeley.
         </p>
 
         <p className="interests">
-          Interested in cryptography, quantum computing, space exploration,
-          communication technology, infrastructure, robotics, and RF.
+          I am interested in cryptography, quantum computing, space exploration, nanotechnology,
+          RF communication, infrastructure, robotics...
         </p>
 
         <p className="links">
