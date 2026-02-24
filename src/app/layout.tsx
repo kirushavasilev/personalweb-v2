@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Kirill Vasilev",
-  description: "UC Berkeley freshman in Electrical and Computer Engineering. Interested in robotics, computing, communications, and space exploration.",
+  description: "UC Berkeley ECE undergraduate. Interested in cryptography, quantum computing, space exploration, communication technology, infrastructure, robotics, and RF.",
 };
 
 export default function RootLayout({
@@ -14,9 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet" />
+        {/* Inspired by Michael Truell's design at mntruell.com */}
       </head>
       <body>
         {children}

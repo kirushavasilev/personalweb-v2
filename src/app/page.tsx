@@ -10,21 +10,17 @@ export default function Home() {
         </h1>
 
         <p>
-          I am an undergraduate engineering student at UC Berkeley.
+          Undergraduate in Electrical and Computer Engineering at UC Berkeley.
         </p>
 
-        <p>
-          I am deeply interested in robotics, computing, communication technologies,
-          and space exploration. Currently involved in Formula Racing Team and
-          closed loop robotics automation.
+        <p className="interests">
+          Interested in cryptography, quantum computing, space exploration,
+          communication technology, infrastructure, robotics, and RF.
         </p>
 
-        <p>
-          I am committed to contributing to humanity&apos;s future innovation in technology.
-          On a road of becoming a polymath.
-        </p>
-
-        <p>
+        <p className="links">
+          <a href="mailto:kvasilev@berkeley.edu">Contact</a>
+          {" · "}
           <Link href="/blogs">Blog</Link>
         </p>
       </div>

@@ -1,3 +1,5 @@
+/* Inspired by Michael Truell's elegant design at mntruell.com */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 255, 255, 255;
@@ -22,7 +24,7 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
-  font-family: "Century Gothic", "Source Sans Pro", Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -92,8 +94,14 @@ p {
   opacity: 0.9;
 }
 
-.list-reset {
-  list-style: none;
+.interests {
+  color: rgb(var(--muted-rgb));
+}
+
+.links {
+  margin-top: 0.5em;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
 }
 
 .mb-2 {
